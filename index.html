@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Course 2 Final</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Cormorant+Garamond:300,300i,400,400i,50\
+        0,500i,600,600i,700,700i,">
+    <link rel="stylesheet" href="style.css">
+    <script = src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <h1 class="name">E. Craig Chamberlain</h1>
+                    <h4 class="title">Full Stack Developer</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs col-xs-12 top">
+                        <li class="bg-dark">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container article">
+        <div class="row">
+            <div class="col-xs-4 col-lg-5">
+                <img src="images/profile.jpg" class="img-responsive">
+            </div>
+            <div class="col-xs-8 col-lg-7">
+                <h2 class="skillTitle">My Skills</h2>
+                <ul class="skillList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="navbar-fixed-bottom footer">
+                <ul>
+                    <li class="emailLink">
+                        <a href="mailto:edward.craig.chamberlain@gmail.com">
+                            <span class="glyphicon glyphicon-pencil align-middle"></span>Email Me!</a>
+                        </a>
+                    </li>
+                </ul>
+                <a href="https://github.com/edottech">
+                    <img src="images/github-593088.ico" class="smLinks">
+                </a>
+                <a href="https://www.linkedin.com/in/edward-chamberlain/">
+                    <img src="images/linkedin.ico" class="smLinks">
+                </a>
+                <a href="https://twitter.com/eDotTech">
+                    <img src="images/twitter.png" class="smLinks">
+                </a>
+                <a href="https://www.facebook.com/chamberlaincraig">
+                    <img src="images/facebook.png" class="smLinks">
+                </a>
+                <a href="https://www.youtube.com/channel/UCIMuD0seMHSRHG_1T04ycFA">
+                    <img src="images/youtube.png" class="smLinks">
+                </a>
+                <a href="https://www.instagram.com/craig_chamberlain/">
+                    <img src="images/instagram.png" class="smLinks">
+                </a>
+            </div>
+        </div>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){    
+            $('.smLinks').hover(makeBigger, returnToOriginalSize);
+            function makeBigger() {
+                $(this).css({height: '+=10%', width: '+=10%'});
+            }
+            function returnToOriginalSize() {
+                $(this).css({height: "", width: ""});
+            }
+        });
+    </script>
+</body>
+</html>
