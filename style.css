@@ -1,0 +1,109 @@
+body {
+    background-color: #E5E4E2;
+}
+
+header {
+    border-bottom: 5px solid black;
+    background-color: lightgray;
+}
+
+header .name {
+    font-size: 28px;
+    font-family: Catamaran;
+}
+
+header .title {
+    font-size: 22px;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.article {
+    padding-top: 10px;
+}
+
+.article img {
+    border-radius: 5px;
+}
+
+a {
+    color: #595959;
+}
+
+.skillTitle {
+    font-family: Catamaran;
+    font-size: 24px;
+}
+
+.skillList {
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.article a {
+    font-size: 16px;
+    font-family: Catamaran;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.projectTitle {
+    font-family: Catamaran;
+}
+
+.contactTitle {
+    font-family: Catamaran;
+    font-size: 24px;
+}
+
+.article p {
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    float: left;
+}
+
+@media only screen and (min-width: 1000px) {
+    .contactTitle {
+        font-size: 48px;
+    }
+    
+    .article p {
+        font-size: 32px;
+    }
+    .skillList {
+        font-size: 32px;
+    }
+    
+    .article a {
+        font-size: 32px;
+    }
+    
+    .skillTitle {
+        font-size: 48px;
+    }
+
+    .projectTitle {
+        font-size: 48px;
+    }
+}
+.footer {
+    border-top: 2px solid black;
+    background-color: lightgray;
+    padding: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer img {
+    margin: 10px 0px 0px 10px;
+    border-radius: 5px;
+}
+.emailLink {
+    padding: 18px 5px 0 0;
+    font-size: 12px;
+    list-style: none;
+}
